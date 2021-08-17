@@ -1,0 +1,423 @@
+body {
+  background-color: rgb(15, 23, 59);
+  margin-bottom: 60px;
+}
+
+.main {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
+
+.needs-validation{
+  display: inline-block;
+  text-align: right;
+}
+.input-group{
+  display: inline-block;
+
+  text-align: right;
+}
+.navbar {
+  align-self: center;
+  overflow: hidden;
+  background-color: rgb(64, 133, 179);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar a {
+  font-family:  monospace;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+#wrapper {
+  width: 500px;
+  border: 1px solid black;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+#container_game > .game_detailes{
+  position: static;
+  width: 500;
+  display: flex;
+  float:left; /* add this */
+  border: 1px solid black;
+
+}
+
+#board_id {
+  float:right;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.general {
+  background-color: transparent !important;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px !important;
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p5_ball{
+  color: red;
+  font-size: 32px;
+}
+
+.p15_ball{
+  color: #3b3dff;
+  font-size: 32px;
+}
+
+.p25_ball{
+  color: #ff9500;
+  font-size: 32px;
+}
+
+.displayer {
+  font-family: sans-serif;
+  font-size: 24pt !important;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+img#welcome_gif {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-3 {
+  text-align: center;
+}
+
+.form-control {
+  display: inline;
+  word-spacing: normal;
+  flex-direction: row;
+
+}
+
+.needs-validation{
+  display: inline;
+  text-align: center;
+  word-spacing: normal;
+  background-color: black;
+  flex-direction: row;    
+}
+
+.row{
+  display: inline;
+  background-color: black;
+  word-spacing: normal;
+  flex-direction: row;
+}
+  /* Sticky footer styles
+-------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+
+html {
+position: relative;
+min-height: 100%;
+}
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 30px;
+line-height: 30px; /* Vertically center the text there */
+background-color: rgb(64, 133, 179);
+  text-align: left;
+}
+
+.footer .container .text-muted:hover{
+  text-decoration: underline;
+
+}
+
+.navbar-brand{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#logo_name{
+  color: white;
+  cursor: default;
+}
+
+.nav-item{
+  cursor: default;
+}
+
+.nav-link{
+  cursor: pointer;
+}
+
+.alert-primary{
+  margin-top: 20px;
+}
+h1.displayer{
+font-family: 'Black Ops One', cursive;
+
+}
+
+div#player_name_span {
+  margin-bottom: 10px;
+}
+
+.footer .container .text-muted{
+  padding: 0% 2% 0% 0%;
+  text-align: left;
+
+}
+
+#game {
+  font-style: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+canvas#canvas {
+  margin-top: 15px;
+  background-color: #212754;
+  padding: 15px;
+  float: center;
+}
+
+.p5_ball{
+  font-size: 32px;
+}
+
+.p15_ball{
+  font-size: 32px;
+}
+
+.p25_ball{
+  font-size: 32px;
+}
+
+.col-sm{
+  display: table;
+  float: right;
+  height: 65px;
+  font-size: 15px;
+}
+.col-sm span{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#logo_name
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+}
+
+.register_input {
+text-align: left;
+}
+
+
+input#lblTime, input#lblScore{
+  background-color: white;
+  color: red;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+input#lblHeart {
+  background-color: white;
+}
+
+details p{
+   font-size: 12px;
+   color: #0400ff;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+padding: 150px 30px 0;
+
+}
+
+.footer > .container {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+code {
+font-size: 80%;
+}
+
+.form-signin {
+width: 100%;
+max-width: 330px;
+padding: 15px;
+margin: 0 auto;
+}
+.form-signin .checkbox {
+font-weight: 400;
+}
+.form-signin .form-control {
+position: relative;
+box-sizing: border-box;
+height: auto;
+padding: 10px;
+font-size: 16px;
+}
+.form-signin .form-control:focus {
+z-index: 2;
+}
+.form-signin input[type="email"] {
+margin-bottom: -1px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+margin-bottom: 10px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+#alert_register{
+  color: #ab0717;
+  text-decoration: bold;
+}
+
+img#welcome_gif {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#logo_svg {
+  width: 8px;
+  height: 8px;
+  vertical-align: baseline;
+}
+
+span#nt_sol {
+  color: white;
+}
+
+img#nt_sol_image {
+  width: 24px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+span#game_status {
+  display:block;
+  width:150px;
+  word-wrap:break-word;
+  position: sticky;
+  margin-top: 10px;
+  align-content: center;
+  text-align: center;
+
+}
+
+a.credit {
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
